@@ -1,0 +1,250 @@
+img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 75px;
+    top: 150px;
+    border-radius: 360px;
+}
+
+.aside{
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    left: 75px;
+    top: 300px;
+}
+
+body{
+    position: absolute;
+    background: #66CC99;
+}
+
+.boton_back{
+    position: absolute;
+    width: 240px;
+    height: 75px;
+    left: 160px;
+    top: 575px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    bottom: 0%;
+    background: #66CCFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.boton_studies_skills{
+    position: absolute;
+    width: 240px;
+    height: 75px;
+    left: 575px;
+    top: 150px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    bottom: 0%;
+    background: #66CCFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+} 
+
+.boton_experience_skills{
+    position: absolute;
+    width: 240px;
+    height: 75px;
+    left: 575px;
+    top: 320px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    bottom: 0%;
+    background: #66CCFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.boton_hobbies_skills{
+    position: absolute;
+    width: 240px;
+    height: 75px;
+    left: 575px;
+    top: 490px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    bottom: 0%;
+    background: #66CCFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.logo_back{
+    position: absolute;
+    height: 58px;
+    width: 58px;
+    border-radius: 0px;
+    left: 15px;
+    right: 75px;
+    top: 8px;
+    bottom: 17px;
+    text-align: center;
+}
+
+.skills_description{
+    position: absolute;
+    width: 515px;
+    height: 650px;
+    left: 900px;
+    top: 20px;
+    background: #CCCCFF;
+    border-radius: 50px;
+}
+
+.logo_studies_skills{
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    border-radius: 0px;
+    left: 20px;
+    right: 25px;
+    top: 12px;
+    bottom: 17px;
+    text-align: center;
+}
+
+.logo_experience_skills{
+    height: 44px;
+    width: 44px;
+    border-radius: 0px;
+    position: absolute;
+    left: 10px;
+    right: 60px;
+    top: 12px;
+    bottom: 17px;
+    text-align: center;
+}
+
+.logo_hobbies_skills{
+    height: 50px;
+    width: 55px;
+    border-radius: 0px;
+    position: absolute;
+    left: 10px;
+    right: 75px;
+    top: 12px;
+    bottom: 17px;
+    text-align: center;
+}
+
+.logo_communication{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 400px;
+    top: 20px;
+    border-radius: 0px;
+}
+
+.logo_teamwork{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 400px;
+    top: 140px;
+    border-radius: 0px;
+}
+
+.logo_responsability{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 400px;
+    top: 290px;
+    border-radius: 0px;
+}
+
+.logo_belonging{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 400px;
+    top: 440px;
+    border-radius: 0px;
+}
+
+.logo_creativity{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 400px;
+    top: 580px;
+    border-radius: 0px;
+}
+
+.text_communication{
+    position: absolute;
+    top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text_teamwork{
+    position: absolute;
+    top: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text_responsability{
+    position: absolute;
+    top: 290px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text_belonging{
+    position: absolute;
+    top: 440px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.text_creativity{
+    position: absolute;
+    top: 580px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}

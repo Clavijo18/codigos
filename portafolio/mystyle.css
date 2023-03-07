@@ -1,0 +1,34 @@
+body{
+    background-color: black;
+}
+
+.logo_iue{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    left: 1160px;
+    top: 0px;
+}
+
+.foto_perfil{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 15px;
+    top: 15px;
+    border-radius: 360px;
+}
+
+.texto_nombre{
+    position: absolute;
+    width: 845px;
+    height: 62px;
+    left: 300px;
+    text-align: center;
+    font-family: 'Digital numbers';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
