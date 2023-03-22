@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+
+.divHeader{
+    display: flex;
+}
+
+header{
+    position: fixed;
+    display: flex;
+    font-family: 'Lobster', cursive;
+    color: white;
+    height: 115px;
+    justify-content: space-between;
+}
+
+.imgHeader{
+    width: 100px;
+    height: 100px;
+}

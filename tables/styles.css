@@ -1,0 +1,38 @@
+body{
+    background: rgb(0, 233, 147);
+}
+
+table{
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+th{
+    background-color:black;
+    color: white;
+}
+
+td{
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+td:hover{
+    background-color: black;
+    color: white;
+    border-radius: 360px;
+}
+
+form{
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    background-color: aqua;
+}
