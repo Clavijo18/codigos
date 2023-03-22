@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "lobster", cursive;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "lobster", cursive;
+}
+
+header {
+  height: 400px;
+}
+
+.gradient {
+  background: linear-gradient(to bottom right, blue, pink);
+}
+
+.profile {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  height: 200px;
+}
+
+.btn-return {
+  padding: 13px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 120px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 40px;
+  left: 50px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 25px;
+  margin-left: 25px;
+  list-style: none;
+  display: block;
+}
+
+nav ul li:hover {
+  border-bottom: solid 3px #fff;
+}
+
+.boxes-container {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+}
+
+.box img {
+  border-radius: 20px;
+  height: 200px;
+  width: 94%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.box:hover {
+  border: 2px solid #fff;
+}
+
+a {
+  text-decoration: none;
+}
