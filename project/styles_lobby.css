@@ -27,6 +27,7 @@ body{
 
 .logo_img{
     height: 100px;
+    transition: ease-in 0.5s;
 }
 
 .textLogo{
@@ -60,7 +61,11 @@ body{
     border-color: aquamarine;
     font-family: 'Lobster', cursive;
     background-color: #f91940;
-    
+    cursor: pointer;
+}
+
+.logo_img:hover{
+    transform: rotate(0.5turn);
 }
 
 .adds{
