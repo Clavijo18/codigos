@@ -1,0 +1,278 @@
+img{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 75px;
+    top: 150px;
+    border-radius: 360px;
+}
+
+.aside{
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    left: 75px;
+    top: 300px;
+}
+
+body{
+    position: absolute;
+    background: #66CC99;
+}
+
+.boton_back{
+    position: absolute;
+    width: 240px;
+    height: 75px;
+    left: 160px;
+    top: 575px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    bottom: 0%;
+    background: #66CCFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+
+.boton_studies_hobbies{
+    position: absolute;
+    width: 240px;
+    height: 75px;
+    left: 575px;
+    top: 150px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    bottom: 0%;
+    background: #66CCFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+} 
+
+.boton_skills_hobbies{
+    position: absolute;
+    width: 240px;
+    height: 75px;
+    left: 575px;
+    top: 320px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    bottom: 0%;
+    background: #66CCFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.boton_experience_hobbies{
+    position: absolute;
+    width: 240px;
+    height: 75px;
+    left: 575px;
+    top: 490px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    bottom: 0%;
+    background: #66CCFF;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.logo_back{
+    position: absolute;
+    height: 58px;
+    width: 58px;
+    border-radius: 0px;
+    left: 15px;
+    right: 75px;
+    top: 8px;
+    bottom: 17px;
+    text-align: center;
+}
+
+.hobbies_description{
+    position: absolute;
+    width: 515px;
+    height: 650px;
+    left: 900px;
+    top: 20px;
+    background: #CCCCFF;
+    border-radius: 50px;
+}
+
+.logo_studies_hobbies{
+    position: absolute;
+    height: 44px;
+    width: 44px;
+    border-radius: 0px;
+    left: 20px;
+    right: 25px;
+    top: 12px;
+    bottom: 17px;
+    text-align: center;
+}
+
+.logo_skills_hobbies{
+    height: 44px;
+    width: 44px;
+    border-radius: 0px;
+    position: absolute;
+    left: 10px;
+    right: 60px;
+    top: 12px;
+    bottom: 17px;
+    text-align: center;
+}
+
+.logo_experience_hobbies{
+    height: 44px;
+    width: 44px;
+    border-radius: 0px;
+    position: absolute;
+    left: 10px;
+    right: 60px;
+    top: 12px;
+    bottom: 17px;
+    text-align: center;
+}
+
+.voley_logo{
+    position: absolute;
+    height: 68px;
+    width: 68px;
+    left: 30px;
+    top: 30px;
+    border-radius: 0px;
+}
+
+.soccer_logo{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 30px;
+    top: 150px;
+    border-radius: 0px;
+}
+
+.code_logo{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 30px;
+    top: 250px;
+    border-radius: 0px;
+}
+
+.games_logo{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 30px;
+    top: 350px;
+    border-radius: 0px;
+}
+
+.cinema_logo
+{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 30px;
+    top: 450px;
+    border-radius: 0px;
+}
+
+.racing_logo{
+    position: absolute;
+    height: 59px;
+    width: 68px;
+    left: 30px;
+    top: 550px;
+    border-radius: 0px;
+}
+
+.text_voley{
+    position: absolute;
+    top: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    left: 150px;
+}
+
+.text_soccer{
+    position: absolute;
+    top: 170px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    left: 150px;
+}
+
+.text_develop{
+    position: absolute;
+    top: 270px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    left: 150px;
+}
+
+.text_games{
+    position: absolute;
+    top: 370px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    left: 150px;
+}
+
+.text_cine{
+    position: absolute;
+    top: 470px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    left: 150px;
+}
+
+.text_racing{
+    position: absolute;
+    top: 570px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    left: 150px;
+}

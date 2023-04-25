@@ -3,20 +3,20 @@ body {
   font-family: "Lobster", cursive;
 }
 
-h1 {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-
-.formulario {
+.content {
   width: 400px;
   height: 600px;
   margin: 0 auto;
   color: white;
 }
 
-.titleCenter {
+h1 {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
   color: white;
   margin: 0 auto;
   display: flex;
@@ -25,17 +25,7 @@ h1 {
   top: 0px;
 }
 
-.logoCenter {
-  width: 300px;
-  height: 300px;
-  margin: 50px auto;
-  display: flex;
-  justify-content: center;
-  transition: ease-in 0.5s;
-  cursor: pointer;
-}
-
-.logoCenter{
+.logo{
     width: 300px;
     height: 300px;
     margin: 50px auto;
@@ -68,18 +58,6 @@ h1 {
   cursor: pointer;
 }
 
-.logoCenter:hover{
-    transform: rotate(0.5turn);
-}
-
-.btnIngresar:hover{
-    color: white;
-    border-color: aquamarine;
-    font-family: 'Lobster', cursive;
-    background-color: #f91940;
-    
-}
-
-.logoCenter:hover{
+.logo:hover{
     transform: rotate(180deg);
 }
