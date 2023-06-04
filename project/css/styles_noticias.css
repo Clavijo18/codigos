@@ -1,0 +1,163 @@
+/*HEADER*/
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.noticias img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.titleHeader {
+  margin: 0;
+  margin-top: 5px;
+}
+
+.subtitleHeader {
+  margin: 0;
+  margin-left: 35px;
+}
+
+#video-fondo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Ajustar video al tamaÃ±o del contenedor */
+  z-index: -1;
+  /* Colocar el video detrÃ¡s del contenido */
+}
+
+body {
+  background-color: black;
+  margin: 0;
+  font-family: "lobster", cursive;
+  color: white;
+}
+
+.noticias {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: flex;
+  font-family: "lobster", cursive;
+  color: white;
+}
+
+.logo_img {
+  margin: 0;
+  height: 100px;
+  transition: 0.5s;
+}
+
+.textLogo {
+  margin: 0;
+  margin-top: 12px;
+}
+
+.menu {
+  font-family: "lobster", cursive;
+  color: white;
+  margin-top: 40px;
+  margin-right: 10px;
+}
+
+.btn {
+  width: 90px;
+  height: 30px;
+  justify-content: center;
+  border-radius: 15px;
+  font-family: "Lobster", cursive;
+  border-color: white;
+  background-color: black;
+  color: white;
+  box-shadow: inset 0px 2px 2px white;
+  filter: drop-shadow(0px 2px 2px white);
+  margin-left: 20px;
+}
+
+.logo_img:hover {
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  border-color: aquamarine;
+  font-family: "Lobster", cursive;
+  background-color: #f91940;
+  cursor: pointer;
+}
+
+article {
+  margin: 20px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.imgA {
+  display: flex;
+  justify-content: center;
+}
+
+article p {
+  display: flex;
+  justify-content: center;
+}
+
+/*BODY*/
+.adds {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  color: white;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 480px) {
+  .titleHeader {
+    font-size: 18px;
+  }
+
+  .subtitleHeader {
+    font-size: 12px;
+    margin-left: 3px;
+  }
+
+  .logo_img {
+    height: 50px;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .btn {
+    width: auto;
+    height: 20px;
+    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .noticias {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}

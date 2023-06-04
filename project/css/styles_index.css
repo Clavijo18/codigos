@@ -1,0 +1,88 @@
+body {
+  background-color: black;
+  font-family: "Lobster", cursive;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+.formulario {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+}
+
+.titleCenter {
+  color: white;
+  margin: 0 auto;
+  font-size: 80px;
+  top: 0px;
+}
+
+.logoCenter {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  transition: ease-in 0.5s;
+}
+
+.btnIngresar {
+  width: 90px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  font-family: "Lobster", cursive;
+  border-color: white;
+  background-color: black;
+  color: white;
+  box-shadow: inset 0px 2px 2px white;
+  filter: drop-shadow(0px 2px 2px white);
+}
+
+.btnIngresar:hover {
+  color: white;
+  border-color: aquamarine;
+  font-family: "Lobster", cursive;
+  background-color: #f91940;
+  cursor: pointer;
+}
+
+.logoCenter:hover {
+  transform: rotate(180deg);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .formulario {
+    width: 80%;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .titleCenter {
+    font-size: 60px;
+  }
+
+  .logoCenter {
+    width: 200px;
+    height: 200px;
+  }
+
+  .btnIngresar {
+    width: 80px;
+    height: 25px;
+  }
+}
