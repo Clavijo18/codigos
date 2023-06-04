@@ -9,9 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/styles_lobby.css">
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-    <title>LOBBY</title>
+    <link rel="stylesheet" href="styles_contacto.css">
+    <title>CONTACTO</title>
 </head>
 
 <body>
@@ -19,10 +18,10 @@
         <div class="logo">
             <img src="../imagenes/logo_negativo_png.png" alt="Logo" class="logo_img"
                 onclick="location.href='index.html'">
-            <div class="textLogo">
+            <label for="" class="textLogo">
                 <h1 class="titleHeader">ANTISOCIAL</h1>
                 <h2 class="subtitleHeader">social club</h2><br>
-            </div>
+            </label>
         </div>
         <nav class="menu">
             <input type="button" value="Inicio" onclick="location.href='lobby.html'" class="btn">
@@ -33,15 +32,17 @@
             <input type="button" value="Contacto" onclick="location.href='contacto.html'" class="btn">
         </nav>
     </header>
+    <hr>
     <video autoplay loop muted id="video-fondo">
-        <source src="/imagenes/video_home.mp4" type="video/mp4">
+        <source src="/imagenes/video_home_6.mp4" type="video/mp4">
         Tu navegador no soporta la etiqueta de video.
     </video>
-    <hr>
-    <footer>
-        <p>Derechos de autor &copy; 2023 Mateo Colorado Clavijo</p>
-    </footer>
-    <script src="main.js"></script>
+    <div class="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d991.8674616416579!2d-75.69832187277721!3d6.0671947290682375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4687933bcb8921%3A0xa02ab282787a25ad!2sMercaminas!5e0!3m2!1ses!2sco!4v1685731053063!5m2!1ses!2sco"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
 </body>
 
 </html>
