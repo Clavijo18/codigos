@@ -13,6 +13,21 @@ header {
   margin-top: 5px;
 }
 
+.redes{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgRedes{
+  width: 120px;
+  height: 120px;
+}
+
+.imgRedes:hover{
+  cursor: pointer;
+}
+
 footer {
   position:fixed;
   left: 0;
