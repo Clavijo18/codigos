@@ -4,4 +4,7 @@ function comprarBoletas(){
 
     console.log(cantidadBoletas);
     console.log(comprador);
+
+    alert(comprador + " Usted ha comprado: " + cantidadBoletas + "Boleta(s) para el próximo evento");
+    alert("Te esperamos con la mejor actitud :)");
 }

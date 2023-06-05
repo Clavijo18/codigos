@@ -1,3 +1,8 @@
+*{
+  font-family: "lobster", cursive;
+  color: white;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -6,6 +11,15 @@ header {
 .titleHeader {
   margin: 0;
   margin-top: 5px;
+}
+
+footer {
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
 }
 
 .subtitleHeader {
@@ -35,8 +49,6 @@ body {
 
 .logo {
   display: flex;
-  font-family: "lobster", cursive;
-  color: white;
 }
 
 .logo_img {
@@ -51,8 +63,6 @@ body {
 }
 
 .menu {
-  font-family: "lobster", cursive;
-  color: white;
   margin-top: 40px;
   margin-right: 10px;
 }
@@ -62,10 +72,8 @@ body {
   height: 30px;
   justify-content: center;
   border-radius: 15px;
-  font-family: "Lobster", cursive;
   border-color: white;
   background-color: black;
-  color: white;
   box-shadow: inset 0px 2px 2px white;
   filter: drop-shadow(0px 2px 2px white);
   margin-left: 20px;
@@ -77,9 +85,7 @@ body {
 }
 
 .btn:hover {
-  color: white;
   border-color: aquamarine;
-  font-family: "Lobster", cursive;
   background-color: #f91940;
   cursor: pointer;
 }

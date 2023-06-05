@@ -1,3 +1,8 @@
+*{
+  font-family: "Lobster", cursive;
+  color: #fff;
+}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -32,8 +37,6 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  font-family: "Lobster", cursive;
-  color: white;
 }
 
 .logo_img {
@@ -42,14 +45,16 @@ body {
   transition: 0.5s;
 }
 
+h1{
+  text-align: center;
+}
+
 .textLogo {
   margin: 0;
   margin-left: 10px;
 }
 
 .menu {
-  font-family: "Lobster", cursive;
-  color: white;
   margin-top: 40px;
   margin-right: 10px;
   display: flex;
@@ -57,8 +62,10 @@ body {
 }
 
 footer {
-  font-family: "Lobster", cursive;
-  color: #fff;
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   padding: 20px;
 }
@@ -68,14 +75,11 @@ footer {
   height: 30px;
   justify-content: center;
   border-radius: 15px;
-  font-family: "Lobster", cursive;
   border-color: white;
   background-color: black;
-  color: white;
   box-shadow: inset 0px 2px 2px white;
   filter: drop-shadow(0px 2px 2px white);
-  margin-left: 10px;
-  margin-bottom: 5px;
+  margin-left: 20px;
 }
 
 .logo_img:hover {
@@ -84,11 +88,15 @@ footer {
 }
 
 .btn:hover {
-  color: white;
   border-color: aquamarine;
-  font-family: "Lobster", cursive;
   background-color: #f91940;
   cursor: pointer;
+}
+
+article{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .adds {
